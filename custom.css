@@ -1,0 +1,723 @@
+header {
+    font-family: "Montserrat", sans-serif;
+    background-color: #0b051a;
+}
+
+.heroText {
+    font-size: 74px;
+    padding: 0px 150px;
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    height: 10px;
+}
+
+.list {
+    list-style: none;
+    padding-top: 13px;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-nav {
+    height: 165px;
+}
+
+.item {
+    position: relative;
+    z-index: 1;
+    padding: 2px 2px;
+}
+
+.item:before {
+    position: absolute;
+    top: 1px;
+    width: 98.7%;
+    height: 97%;
+    background-image: linear-gradient(to right, #191424);
+    content: "";
+    border-radius: 40px;
+    z-index: 1;
+}
+
+.item:after {
+    position: absolute;
+    border-radius: 40px;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #bf8dfd, #946af7, #0b051a, #0b051a);
+    content: "";
+}
+
+.starButton,
+.starButton p {
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+.starButton:before {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 98.7%;
+    height: 97%;
+    background-image: linear-gradient(to right, #0E0720, #1A0E37, #2D283B);
+    content: "";
+    clip-path: polygon(0 0, calc(100% - 35px) 0, 100% 25px, 100% 100%, 0 100%);
+    z-index: 1;
+}
+
+.starButton:after {
+    position: absolute;
+    clip-path: polygon(0 0, calc(100% - 35px) 0, 100% 25px, 100% 100%, 0 100%);
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #825bf5, #c59efc);
+    content: "";
+}
+
+.hero {
+    background-image: url(./image/backgoundHero.png);
+    padding-top: 230px;
+    background-size: 115% 100%;
+    background-repeat: no-repeat;
+    background-position: 57%;
+}
+
+header {
+    background:
+        radial-gradient(ellipse at left 30%, #1a162c 15%, #0b051a, transparent 50%),
+        radial-gradient(ellipse at right 30%, #1a162c 15%, #0b051a, transparent 50%),
+        #0f0e2c;
+    background-color: #0b051a;
+}
+
+.heropara,
+.hover-underline,
+.start,
+.subHeading,
+.icon-btn,
+.raw-text,
+.post {
+    color: #cdcccf;
+}
+
+.dev {
+    color: #9C71F8;
+}
+
+.tool {
+    color: #B283FB;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.hoverUnderline::after {
+    content: '';
+    position: absolute;
+    width: 32%;
+    height: 2px;
+    background: linear-gradient(to right, #825bf5, #c390fe, #cc98ff);
+    bottom: 10px;
+    left: 49px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease-out;
+}
+
+.hoverUnderline:hover::after {
+    transform: scaleX(1);
+}
+
+.coverImage {
+    width: 55px;
+    margin-left: -15px;
+}
+
+strong {
+    color: #684b9b;
+}
+
+.image {
+    height: 950px;
+}
+
+.backgroundImage {
+    left: 35px;
+    width: 95%;
+    height: 100%;
+}
+
+.foregroundImage {
+    top: 40px;
+    left: 70px;
+    width: 90%;
+    height: 93%;
+    border-radius: 10px;
+    box-shadow: 0px 3px rgb(43 42 42 / 37%);
+}
+
+.optimizedTools {
+    background: linear-gradient(to right, #825bf5 40%, #c59efc);
+    font-family: "Montserrat", sans-serif;
+}
+
+.toolName {
+    color: #e1c9fd;
+    font-weight: 500;
+    position: relative;
+}
+
+.toolName:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #e1c9fd;
+    margin-top: 16px;
+    right: 8px;
+}
+
+.toolcontainer {
+    border: 1px solid transparent;
+    border-width: 4px 0px 4px 0px;
+    padding: 20px 0px;
+    border-image: linear-gradient(to right, #9a7af6, #d2a8fe);
+    border-image-slice: 1;
+}
+
+.Productivity,
+.formattor,
+.raw,
+.join {
+    background-color: #0b051a;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mainHeading {
+    font-size: 72px;
+    background: linear-gradient(to right, #9369f7 20%, #cb97ff 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fi-sr-bahai {
+    background: linear-gradient(to right, #825bf5, #c59efc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    top: 869px;
+    right: 46px;
+}
+
+.startop {
+    left: 100px;
+    bottom: 800px;
+}
+
+.icon-btn {
+    background-image: linear-gradient(to right, #322c41 10%, #241e33 80%);
+    border: 1px solid transparent;
+    padding: 20px 15px;
+}
+
+.icon-btn:hover {
+    border: 1px solid #c59efc;
+}
+
+.productiveTool {
+    width: 246px;
+}
+
+.productiveIcon,
+.number {
+    background: linear-gradient(to right, #825bf5, #c59efc 70%);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.textFormatter {
+    padding-top: 100px;
+}
+
+.textFormatter:before {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 99.7%;
+    height: 99%;
+    background: radial-gradient(ellipse farthest-corner at 58% 39%, #644987 0%, #0b051a, #0b051a);
+    content: "";
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.textFormatter:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #9369f7 20%, #c59efc, #0b051a 80%);
+    content: "";
+    border-radius: 20px;
+}
+
+.proText p {
+    width: 540px;
+}
+
+.form {
+    background: linear-gradient(to right, #9369f7 20%, #a87af7 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formatIcon {
+    background: linear-gradient(to right, #996ef8, #c59efc 70%);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.custom-btn {
+    background: linear-gradient(to right, #875ff6, #cb97ff 70%);
+    border-radius: 15px;
+    margin-top: 300px;
+}
+
+.leftArrow,
+.rightArrow {
+    padding: 30px 0px;
+}
+
+.leftArrow:before,
+.leftRaw:before {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 98%;
+    height: 97%;
+    background-image: linear-gradient(to right, #1a0b37, #0e0621);
+    content: "";
+    clip-path: polygon(40% 0, 0 44%, 0 100%, 100% 100%, 100% 0%);
+    z-index: 1;
+}
+
+.leftArrow:after,
+.leftRaw:after {
+    position: absolute;
+    clip-path: polygon(40% 0, 0 43%, 0 100%, 100% 100%, 100% 0%);
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #9369f7 20%, #c59efc 40%);
+    content: "";
+}
+
+.fa-arrow-left-long,
+.fa-arrow-right-long {
+    top: 15px;
+    left: 30px;
+}
+
+.rightArrow:before,
+.rightRaw:before {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 97.5%;
+    height: 97%;
+    background-image: linear-gradient(to right, #0e0621, #1a0b37);
+    content: "";
+    clip-path: polygon(0% 0%, 65% 0, 100% 49%, 100% 99%, 0% 100%);
+    z-index: 1;
+}
+
+.rightArrow::after,
+.rightRaw::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #9369f7 20%, #c59efc 40%);
+    content: "";
+    clip-path: polygon(0% 0%, 65% 0, 100% 49%, 100% 99%, 0% 100%);
+}
+.rawArrow{
+    width: 200px;
+}
+.indicator {
+    padding-top: 450px;
+}
+
+.indicator .dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+.indicator .dot.active {
+    border-color: #c084fc;
+}
+
+.raw-input {
+    background-image: linear-gradient(to right, #231646, #312248);
+    mask: url('https://i.ibb.co/7RW8C9t/top.png')top/auto 20px repeat-x,
+        linear-gradient(white, white) no-repeat center/100% calc(100% - 1*20px),
+        url('https://i.ibb.co/5WvbqgG/zmylJ.png') bottom/auto 20px repeat-x;
+}
+
+
+.rightRaw:before {
+    background-image: linear-gradient(to right, #3f2b5c, #4b3d5e);
+}
+
+.leftRaw,
+.rightRaw {
+    padding: 30px 0px;
+}
+
+.leftRaw:before {
+    background-image: linear-gradient(to left, #3f2b5c, #4b3d5e);
+}
+
+.rawArrow {
+    width: 14%;
+    top: 55px;
+    right: 85px;
+}
+
+.rawImage {
+    padding: 30px 0px 30px 0px;
+}
+
+
+.raw-tool:before {
+    position: absolute;
+    left: -2px;
+    top: 2px;
+    width: 102%;
+    height: 95%;
+    background-image: linear-gradient(to right, #231646, #312248);
+    content: "";
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.raw-tool:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #9369f7 20%, #c59efc 40%)transparent;
+    content: "";
+    border-radius: 20px;
+}
+
+.join-now {
+    padding: 60px 100px;
+    background: linear-gradient(to right, #825bf5, #c390fe, #cc98ff);
+}
+
+.join {
+    padding: 150px 0px 0px 0px;
+}
+
+.thousand {
+    color: #8458f4;
+}
+
+.button {
+    background: linear-gradient(to right, #825bf5 10%, #c59efc 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.opinion-dot {
+    padding-top: 150px;
+}
+
+.opinion-dot .dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+.opinion-dot .dot.active {
+    border-color: #c084fc;
+}
+
+.join {
+    background:
+        radial-gradient(ellipse at left 65%, #170d2f 10%, #0b051a, transparent 75%),
+        radial-gradient(ellipse at right 65%, #170d2f 25%, #0b051a, transparent 50%),
+        #0f0e2c;
+    background-color: #0b051a;
+}
+
+.fa-arrow-right-long {
+    top: 15px;
+    left: 30px;
+}
+
+.tool-card:before {
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    width: 99%;
+    height: 98%;
+    background-image: linear-gradient(to right, #292040, #171126 70%);
+    content: "";
+    clip-path: polygon(0% 0%, 65% 0, 100% 49%, 100% 99%, 0% 100%);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+
+.tool-card::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #4a338d 20%, #906ab8 40%);
+    content: "";
+    clip-path: polygon(0% 0%, 65% 0, 100% 49%, 100% 99%, 0% 100%);
+    border-radius: 10px;
+}
+
+.card-text {
+    width: 65%;
+}
+
+.lower-button {
+    width: 18%;
+    position: relative;
+}
+
+.person7,
+.person6,
+.person4 {
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    clip-path: polygon(24% 0, 35% 22%, 100% 23%, 100% 100%, 0 100%, 0 0);
+    background-color: #2a0f44;
+
+}
+
+.footer-section {
+    font-family: "Montserrat", sans-serif;
+    background-color: #0b051a;
+}
+
+.app-image {
+    height: 40%;
+}
+
+.copy {
+    padding-top: 245px;
+}
+
+.foot-text {
+    padding-top: 130px;
+}
+
+.foot-icon {
+    padding-top: 115px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 80%;
+    left: 25%;
+    overflow: hidden;
+}
+
+.raw-text {
+    width: 21%;
+}
+
+@media (max-width: 576px) {
+    .heroText {
+        font-size: 24px;
+        display: table-footer-group;
+    }
+
+    .mainHeading {
+        font-size: 1.75rem;
+    }
+
+    .toolName {
+        font-size: 1rem;
+    }
+
+    .productiveIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-text {
+        font-size: 20px;
+    }
+
+    .coverImage {
+        display: flex;
+        flex-direction: row;
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .image {
+        width: 330px;
+        height: 302px;
+    }
+
+    .foregroundImage {
+        top: 15px;
+        left: 40px;
+    }
+
+    .raw-text h4,
+    .mainHeading,
+    .subHeading,
+    .textFormatter p,
+    .button {
+        font-size: 15px;
+    }
+
+    .startop {
+        left: 16px;
+        bottom: 265px;
+    }
+
+    .fi-sr-bahai {
+        top: 278px;
+        right: 7px;
+    }
+
+    .fi {
+        font-size: 30px;
+    }
+
+    .toolcontainer {
+
+        flex-direction: column;
+    }
+
+    .formattor {
+        width: 100%;
+    }
+
+    .textFormatter:before {
+        width: 97%;
+    }
+
+    .textFormatter:after {
+        width: 98%;
+    }
+
+    .proText p {
+        width: 280px;
+
+    }
+
+    .rawArrow {
+        width: 200px;
+    }
+
+    .rawimage {
+        width: 100%;
+        position: relative;
+        top: 73px;
+    }
+
+    .raw-container,
+    .join-now,
+    .main-content,
+    .foot-text .row,.community-text {
+        flex-direction: column;
+    }
+
+    .lower-button {
+        width: 64%;
+    }
+
+    .footer {
+        clip-path: polygon(29% 0, 72% 8%, 100% 8%, 100% 100%, 80% 100%, 20% 100%, 1% 100%, 0 0);
+    }
+
+    .app-image {
+        width: 266px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .raw-text {
+        width: 56%;
+        margin: 10px;
+    }
+
+    .carousel-inner {
+        width: 370px;
+        left: 10px;
+    }
+    .row,.textFormatter{
+        justify-content: center;
+    }
+    .custom-btn{
+        width: 85%;
+    }
+    .mainHeading,.subHeading{
+        text-align: center;
+    }
+    .raw-container{
+                width: 100%;
+        position: relative;
+      
+    }
+    .opinion-dot{
+        justify-content: center;
+    }
+   .copy,.foot-text,.foot-icon{
+    padding-top: 50px;
+   }
+   .raw-input{
+    justify-content: center;
+   }
+   .raw-text{
+        width: 87%;
+   }
+
+}
